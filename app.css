@@ -1,5 +1,5 @@
 body, html{
-    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0;
 }
@@ -7,6 +7,9 @@ body, html{
 h1{
     color: white;
 }
+a {
+    text-decoration: none;
+   }
 
 .navbar{
     background-color: grey;
@@ -43,3 +46,13 @@ h1{
    max-height: 3rem;
    text-align: right;
 }
+
+
+   .next {
+    background-color: black;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
