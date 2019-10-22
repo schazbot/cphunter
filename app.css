@@ -1,21 +1,21 @@
-
 body, html{
     font-family: 'EB Garamond', serif;
     height: 100%;
     margin: 0;
 }
+
 h1{
     color: white;
 }
 
 .navbar{
-    background-color:black;
-    position: relative;;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
     padding: 2%;
-    width: 100%;
     height: auto;
 }
-
 
 .container{
     height: 50vh;
@@ -24,11 +24,22 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px 10px; 
-
 }
+
 .cell{
     min-width: 200px;
     background-color:grey;
     font-size: 3rem;
     text-align: center;
+}
+
+.icon-container{
+    text-align: right;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+.icons{
+   max-width: 3rem;
+   max-height: 3rem;
+   text-align: right;
 }
