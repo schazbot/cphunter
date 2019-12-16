@@ -3,10 +3,22 @@ body {
   margin: 2rem auto;
   width: 95%;
 }
+nav {
+  /* padding: 1em; */
+  text-align: center;
+}
+
 h2,
 p {
   margin: 0;
+  padding: 0.5em;
+  text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -36,10 +48,10 @@ ul {
 @media screen and (min-width: 40em) {
 }
 */ a {
-  text-decoration: none;
   color: black;
   opacity: 1;
   padding: 1em;
+  text-decoration: none;
 }
 
 a:hover {
@@ -74,14 +86,12 @@ a:active {
 }
 
 .link {
-  display: inline;
-  float: right;
+  display: inline-block;
+  padding: 1em;
+  /* float: right; */
 }
 
 #header {
   display: inline;
-  padding: 0 1em 0 2em;
-}
-nav {
-  padding: 1em;
+  padding: 0 1em 0 0;
 }
