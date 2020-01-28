@@ -84,21 +84,21 @@ a:visited {
 
 #dog-days {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/n-america.png");
-  /* opacity: 0.6; */
+  background-position: 46% 50%;
 }
 
 #dog-days2 {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/SkateTravel-Buddies.png");
-  /* opacity: 0.6; */
+  background-position: 46% 50%;
 }
 
 #coffee-cyclists-1 {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/coffee-for-cyclists-1.jpeg");
-  /* opacity: 0.6; */
+  background-position: 18% 50%;
 }
 #coffee-cyclists-2 {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url("./assets/coffee-for-cyclists-2.jpeg");
-  /* opacity: 0.6; */
+  background-position: 33% 50%;
 }
 #coffee-cyclists-3 {
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/coffee-for-cyclists-3.jpeg");
@@ -118,10 +118,10 @@ a:visited {
 }
 
 #deardamsels-1{
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/i-miss-being-gay.jpeg");
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/growth.jpg");
 }
 #deardamsels-2{
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/i-miss-being-gay.jpeg");
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/doubling-up.jpg");
 }
 
 .link {
