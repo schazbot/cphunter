@@ -2,6 +2,7 @@ body {
   font-family: Avenir, sans-serif;
   margin: 2rem auto;
   width: 95%;
+
 }
 nav {
   /* padding: 1em; */
@@ -13,6 +14,11 @@ p {
   margin: 0;
   padding: 0.5em;
   text-decoration: none;
+  color: black;
+  font-size: medium;
+  width: 100%;
+  color: black;
+  background-color: aquamarine;
 }
 
 a {
@@ -24,6 +30,8 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+
 
 /* .boxes > * {
   padding: 0.5rem;
@@ -62,6 +70,10 @@ a:active {
   text-decoration: underline;
 }
 
+a:visited {
+  color:black;
+}
+
 .boxes li {
   /* background-color: grey; */
   background-size: cover;
@@ -71,25 +83,58 @@ a:active {
 }
 
 #dog-days {
-  background-image: url("./assets/n-america.png");
-  opacity: 0.6;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/n-america.png");
+  /* opacity: 0.6; */
 }
 
 #dog-days2 {
-  background-image: url("./assets/SkateTravel-Buddies.png");
-  opacity: 0.6;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/SkateTravel-Buddies.png");
+  /* opacity: 0.6; */
 }
 
-#medium {
-  background-image: url("./assets/rainbowWalk.jpeg");
-  opacity: 0.6;
+#coffee-cyclists-1 {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/coffee-for-cyclists-1.jpeg");
+  /* opacity: 0.6; */
+}
+#coffee-cyclists-2 {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url("./assets/coffee-for-cyclists-2.jpeg");
+  /* opacity: 0.6; */
+}
+#coffee-cyclists-3 {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/coffee-for-cyclists-3.jpeg");
+  /* opacity: 0.6; */
+}
+#coffee-cyclists-4 {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/rainbowWalk.jpeg");
+  /* opacity: 0.6; */
+}
+#letter-to-my-ex {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/driving.jpeg");
+  /* opacity: 0.6; */
+}
+#miss-being-gay {
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/i-miss-being-gay.jpeg");
+  /* opacity: 0.6; */
+}
+
+#deardamsels-1{
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/i-miss-being-gay.jpeg");
+}
+#deardamsels-2{
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/i-miss-being-gay.jpeg");
 }
 
 .link {
   display: inline-block;
-  padding: 1em;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+    font-size: medium;
+    font-weight: bold;
+    /* float: right;
   /* float: right; */
 }
+
 
 #header {
   display: inline;
